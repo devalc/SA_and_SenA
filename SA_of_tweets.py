@@ -17,10 +17,10 @@ class Twitter_Auth(object):
         """
         Provide keys and tokens from the Twitter Dev Console below
         """
-        consumer_key = 'y8oBQHkpRNkEPFjNdpuvpAEcD'
-        consumer_secret = '8ODpBqlkN3OGsMcywf7kmhzYxuJ3Wgpot7r6VkoEJ3aju8qsVv'
-        access_token = '3281440274-U1xfswvrm5lLliyifsYt0lptnBKKANqHU4AjfkG'
-        access_token_secret = 'LeaU6eRGlJBFcqTAMrGRFUqdppY6DhT62BPl42msXKz9g'
+        consumer_key = ''
+        consumer_secret ='' 
+        access_token = ''
+        access_token_secret = ''
         try:
             self.auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
             self.auth.set_access_token(access_token, access_token_secret)
